@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "980504154129",
+    "project_id": "favorite-movie-deebf",
+    "storage_bucket": "favorite-movie-deebf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980504154129:android:24db4e46180c3bcbfa21b0",
+        "android_client_info": {
+          "package_name": "com.example.favorite_movie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNypW5ulJBaIJNVsh4r6p7e7ixDgmcIIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
