@@ -152,7 +152,7 @@ class HomeScreen extends StatelessWidget {
                                                       imageBuilder: (context, imageProvider) {
                                                         return Container(
                                                           decoration: BoxDecoration(
-                                                              borderRadius: BorderRadius.circular(15),
+                                                              borderRadius: BorderRadius.circular(10),
                                                               image: DecorationImage(image: imageProvider, fit: BoxFit.fitWidth)),
                                                         );
                                                       },
@@ -160,7 +160,9 @@ class HomeScreen extends StatelessWidget {
                                                         return Container(
                                                           margin: const EdgeInsets.only(top: 5, bottom: 5),
                                                           decoration: BoxDecoration(
-                                                              borderRadius: BorderRadius.circular(10), color: Colors.grey.withOpacity(0.5)),
+                                                            borderRadius: BorderRadius.circular(10),
+                                                            color: Colors.grey.withOpacity(0.5),
+                                                          ),
                                                           child: const Center(
                                                             child: Icon(
                                                               Icons.error,
@@ -174,7 +176,10 @@ class HomeScreen extends StatelessWidget {
                                                   ),
                                                   Positioned.fill(
                                                     child: Container(
-                                                      color: Color.fromARGB(50, 0, 0, 0),
+                                                      decoration: BoxDecoration(
+                                                        color: Color.fromARGB(50, 0, 0, 0),
+                                                        borderRadius: BorderRadius.circular(10),
+                                                      ),
                                                     ),
                                                   ),
                                                   Positioned.fill(
